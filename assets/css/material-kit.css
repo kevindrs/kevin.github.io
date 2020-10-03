@@ -11736,6 +11736,7 @@ label {
 .offline-doc .footer .copyright a,
 .offline-free-doc .footer .copyright a {
   color: #ffffff;
+  text-align: center;
 }
 
 .offline-doc .navbar .navbar-brand,
@@ -18259,12 +18260,14 @@ footer .pull-center {
   font-weight: 600;
   display: inline-block;
   position: relative;
+  text-align: center;
 }
 
 .index-page .brand h3 {
   font-size: 1.313rem;
   max-width: 500px;
   margin: 10px auto 0;
+  text-align: center;
 }
 
 .index-page h4.description {
