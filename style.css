@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+    font-family: 'Helvetica', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+wrapper {
+    width: 32%;
+    float: left;
+}
+
+.box {
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba(100, 100, 100, 0.25);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 12px;
+    border: 2px solid rgba( 255, 255, 255, 0.2 );
+    padding: 24px 64px 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.box_nama {
+    padding: 12px 64px 24px;
+}
+
+/* button */  
+.button {
+    transition: all .5s ease;
+    color: rgba( 255, 255, 255, 0.8 );
+    font-family:'Helvetica', sans-serif;
+    text-align: center;
+    line-height: 1;
+    font-size: 24px;
+    background-color: rgba(56, 56, 56, 0.4);
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.5 );
+    color: #000000;
+}
+.wButton {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 10px;
+}
+#konversi {
+    font-size: 16px;
+    width: 80%;
+    padding: 16px 36px;
+}
+
+/* input field */
+input{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgba( 255, 255, 255, 0.8);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: 2px solid rgba( 255, 255, 255, 0.8);
+}
+input:focus{
+    background-color: rgb( 255, 255, 255);
+    outline: 2px solid rgba(56, 56, 56, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+    wrapper {
+        width: 100%;
+        float: left;
+    }
+    .button {
+        width: 10%;
+    }
+}
