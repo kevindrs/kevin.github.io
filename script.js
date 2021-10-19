@@ -16,7 +16,7 @@ function konversi(){
     }else if(angka >= 81 && angka <= 100){
         document.getElementById("hasil_konversi").innerHTML = "A";
     }else {
-        document.getElementById("hasil_konversi").innerHTML = "Nilai tidak valid!"<br>"Silakan masukkan nilai antara 0-100.";
+        document.getElementById("hasil_konversi").innerHTML = "Nilai tidak valid! Silakan masukkan nilai antara 0-100.";
     }
 }
 //document.getElementById("konversi").addEventListener("click", konversi);
