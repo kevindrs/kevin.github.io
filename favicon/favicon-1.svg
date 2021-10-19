@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.7092mm" height="2.7092mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 270.92 270.92"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="712" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Plus Jakarta Sans">
+		<font-face-src>
+			<font-face-name name="Plus Jakarta Sans Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="K" horiz-adv-x="679" d="M72.0119 0l135.992 0 0 209.017 100.02 118.985 199.973 -328.002 160.019 0 -266.991 439.023 257.947 306 -170.952 0 -280.016 -331.039 0 331.039 -135.992 0 0 -745.023z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Plus Jakarta Sans";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil1 {fill:white}
+    .fil0 {fill:url(#id0)}
+    .fnt0 {font-weight:bold;font-size:148.17px;font-family:'Plus Jakarta Sans'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="270.93" y1="270.93" x2="0.03" y2="-0.01">
+   <stop offset="0" style="stop-opacity:1; stop-color:#003287"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#568AE3"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="135.46" cy="135.46" r="135.47"/>
+  <text x="80.63" y="190.66"  class="fil1 fnt0">K</text>
+ </g>
+</svg>
