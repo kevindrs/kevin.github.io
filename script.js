@@ -13,8 +13,10 @@ function konversi(){
         document.getElementById("hasil_konversi").innerHTML = "B";
     }else if(angka >= 71 && angka <= 80){
         document.getElementById("hasil_konversi").innerHTML = "BA";
-    }else{
+    }else if(angka >= 81 && angka <= 100){
         document.getElementById("hasil_konversi").innerHTML = "A";
+    }else {
+        document.getElementById("hasil_konversi").innerHTML = "Silakan masukkan nilai antara 0-100.";
     }
 }
 //document.getElementById("konversi").addEventListener("click", konversi);
