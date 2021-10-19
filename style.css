@@ -89,4 +89,7 @@ input:focus{
     .button {
         width: 10%;
     }
+    .body {
+        background-size: 100% auto 100% auto;
+    }
 }
