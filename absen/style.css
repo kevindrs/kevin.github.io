@@ -1,0 +1,109 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+    font-family: 'Helvetica', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+wrapper {
+    width: 34%;
+    float: left;
+}
+
+/* heading */
+h1, h2, h3,  h4 {
+    margin-top: 0;
+}
+
+/* container */
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(100, 100, 100, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 32px 56px 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_nama {
+    padding: 24px 64px 24px;
+}
+
+.container_daftarhadir {
+    padding: 32px 32px 32px;
+}
+
+.container-inside {
+    width: auto;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+}
+
+.container-inside-daftarhadir {
+    padding: 24px 24px 8px 24px;
+}
+
+/* input field */
+input{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgba( 255, 255, 255, 0.8);
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline: 2px solid rgba( 255, 255, 255, 0.8);
+}
+input:focus{
+    background-color: rgb( 255, 255, 255);
+    outline: 2px solid rgba(56, 56, 56, 0.7);
+}
+
+/* button */  
+button {
+    transition: all .5s ease;
+    color: rgba( 255, 255, 255 );
+    font-family:'Helvetica', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    background-color: rgba(56, 56, 56, 0.4);
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000000;
+}
+.container-inside button {
+    font-size: 14px;
+    margin: 0px 2px 0px 2px;
+}
+
+@media screen and (max-width: 992px) {
+    wrapper {
+        width: 100%;
+        float: left;
+    }
+    .button {
+        width: 10%;
+    }
+}

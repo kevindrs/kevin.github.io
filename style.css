@@ -4,7 +4,7 @@
 
 body {
     background-image: url(images/background.jpg);
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ wrapper {
 }
 
 /* button */  
-.button {
+button, a.button{
     transition: all .5s ease;
     color: rgba( 255, 255, 255, 0.8 );
     font-family:'Helvetica', sans-serif;
@@ -48,8 +48,9 @@ wrapper {
     border: none;
     outline: none;
     border-radius: 8px;
+    margin: 4px;
 }
-.button:hover {
+button:hover, a.button:hover {
     background-color: rgba(255, 255, 255, 0.5 );
     color: #000000;
 }

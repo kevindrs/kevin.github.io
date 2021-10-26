@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi MHS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <wrapper>
+        <div class="container container_nama">
+            <h2>Kevin Andreas</h2>
+            <label>NPM: 2024250013</label>
+        </div>
+        <br>
+        <div class="container">
+            <h2>Absensi MHS</h2>
+            <input id="npm" placeholder="NPM">
+            <input id="nama" placeholder="Nama MHS">
+            <button onclick="simpan()">Simpan Absen</button>
+        </div>
+        <br>
+        <div class="container container_daftarhadir">
+            <div class="container-inside">
+                <input id="carinpm" placeholder="Ketikkan NPM">
+                <button onclick="cari()">Cari</button>
+                <button onclick="hapus()">Hapus</button>
+            </div>
+            <br>
+            <div class="container-inside container-inside-daftarhadir">
+            <h3>Daftar Hadir Mahasiswa</h3>
+            <div id="jumlahmhs"></div>
+            <div id="kehadiran"></div>
+            </div>
+        </div>
+    </wrapper>
+
+    <script src="absen.js"></script>
+</body>
+</html>
