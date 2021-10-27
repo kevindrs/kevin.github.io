@@ -61,7 +61,7 @@ button:hover, a.button:hover {
 }
 #konversi {
     font-size: 16px;
-    width: 80%;
+    width: 100%;
     padding: 16px 36px;
 }
 
@@ -82,13 +82,13 @@ input:focus{
     outline: 2px solid rgba(56, 56, 56, 0.7);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     wrapper {
         width: 100%;
         float: left;
     }
     .button {
-        width: 10%;
+        width: 40%;
     }
     .body {
         background-size: 100% auto 100% auto;
